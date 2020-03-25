@@ -11,15 +11,14 @@ import java.util.Arrays;
  * TODO: binarySearch er stadig buggy....
  */
 
-public class SoegningsKlasse {
+public class SoegningsKlasse{
 
-
-    static int[] intArr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    static int[] intArr={1, 2, 3, 4, 5, 6, 7, 8, 9};
 
     /**
      * Denne constructor gør ikke særlig meget for tiden
      */
-    public SoegningsKlasse() {
+    public SoegningsKlasse(){
     }
 
     /**
@@ -28,8 +27,8 @@ public class SoegningsKlasse {
      * @param x int
      * @return index int Dvs. hvilket plads i arrayet er tallet x er fundet på, funktionen returnerer -1, hvis ikke tallet er fundet i arrayet,
      */
-    public int find(int x, int[] arr) {
-        int index = -1;
+    public int find(int x,int[]arr){
+        int index=-1;
 
         System.out.println("*** Linear search søger.");
 
